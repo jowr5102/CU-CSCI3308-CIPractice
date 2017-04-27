@@ -1,2 +1,5 @@
 language: c
-build: .make && make test
+script:
+  - make 
+  - make test
+  - make clean
