@@ -1,5 +1,6 @@
 language: c
 script:
+  - make dep
   - make 
   - make test
   - make clean
