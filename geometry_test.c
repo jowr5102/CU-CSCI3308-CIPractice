@@ -198,7 +198,6 @@ Suite* coord_2d_suite(void)
 int main(void){
 
     int failed = 0;
-    
     Suite* s = coord_2d_suite();
     SRunner* sr = srunner_create(s);
     srunner_run_all(sr, CK_VERBOSE);
